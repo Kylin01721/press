@@ -1,0 +1,15 @@
+{
+  "name": "press",
+  "version": "1.0.0",
+  "description": "my press",
+  "main": "index.js",
+  "author": "Kylin01721 <1399779497@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.63"
+  },
+   "scripts": {
+	       "docs:dev": "vuepress dev docs",
+	           "docs:build": "vuepress build docs"
+		     }
+}

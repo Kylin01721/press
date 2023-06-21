@@ -24,6 +24,6 @@ jobs:
           username: 'root'
           password: ${{ secrets.SSH_PRIVATE_KEY }}
           port: '22'
-          source: 'docs/.vuepress/dist/'
+          source: 'docs/.vuepress/dist/*'
           target: '/usr/share/nginx/html/press'
           strip_components: 1
